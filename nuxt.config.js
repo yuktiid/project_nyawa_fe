@@ -15,6 +15,10 @@ export default defineNuxtConfig({
   plugins: [
     '~/plugins/sweetalert2.js', // Menambahkan plugin SweetAlert2
   ],
+
+  server:{
+    port: 7000, host: '0.0.0.0'
+  }
 })
 
 
